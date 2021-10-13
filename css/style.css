@@ -961,7 +961,7 @@ body._touch .menu__item._active .menu__arrow {
   -ms-flex-direction: column;
   flex-direction: column;
   color: white;
-  font-size: 16px; }
+  font-size: 14px; }
 
 .page {
   -webkit-box-flex: 1;
