@@ -178,7 +178,8 @@ h6 {
       border-bottom: 1px solid #fff; }
     @media (min-width: 992px) {
       .select__option:hover {
-        background: #d9d9d9; } }
+        background: #ffcc00;
+        color: #ba0000; } }
   .select._active {
     z-index: 5; }
     .select._active .select__value:before {
@@ -568,6 +569,7 @@ body.ie ._ibg img {
   display: flex; }
 
 .top-header__item:first-child {
+  cursor: pointer;
   margin: 0px 30px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -936,18 +938,47 @@ body._touch .menu__item._active .menu__arrow {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     background-color: #666;
-    padding: 50px;
-    width: 100%;
-    max-width: 800px; }
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px; }
+    .popup__body .popup-top {
+      padding: 20px 40px 40px 40px;
+      background-color: #ba0000;
+      border-radius: 10px 10px 0 0; }
+      .popup__body .popup-top h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin: 0px 0px 10px 0px; }
+    .popup__body .popup-bottom {
+      padding: 20px 40px 40px 40px;
+      background-color: #ffcc00;
+      border-radius: 0 0 10px 10px;
+      color: #ba0000; }
+      .popup__body .popup-bottom h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin: 0px 0px 30px 0px; }
+      .popup__body .popup-bottom input {
+        height: 40px;
+        width: 70%;
+        border-radius: 10px; }
+    .popup__body p {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 24px;
+      text-decoration: underline; }
   .popup__close {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     top: 0px;
     right: 0px;
     cursor: pointer;
     z-index: 30;
-    background: url("../img/icons/close.svg") 0 0 no-repeat; }
+    background: url("../../img/icons/close.svg") 0 0 no-repeat; }
 
 .wrapper {
   width: 100%;

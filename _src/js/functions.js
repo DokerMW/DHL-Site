@@ -523,6 +523,3 @@ animate({
 			Element.prototype.msMatchesSelector;
 	}
 })();
-
-console.log('sdfasda');
-
