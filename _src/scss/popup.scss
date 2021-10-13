@@ -63,7 +63,7 @@
 		text-align: center;
 		border-radius: 10px;
 		& .popup-top {
-			padding: 20px 40px 40px 40px;
+			padding: 20px 40px 20px 40px;
 			background-color: #ba0000;
 			border-radius: 10px 10px 0 0;
 			& h3 {
@@ -73,30 +73,50 @@
 				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 				margin: 0px 0px 10px 0px;
 			}
+			& p {
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 24px;
+				text-decoration: underline;
+			}
 		}
 		& .popup-bottom {
 			padding: 20px 40px 40px 40px;
 			background-color: #ffcc00;
 			border-radius: 0 0 10px 10px;
 			color: #ba0000;
+			max-width: 500px;
 			& h3 {
 				font-size: 30px;
 				text-transform: uppercase;
 				font-weight: 500;
 				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-				margin: 0px 0px 30px 0px;
+				margin: 0px 0px 10px 0px;
 			}
 			& input {
 				height: 40px;
 				width: 70%;
 				border-radius: 10px;
+				background-color: #fff1bb;
+				margin: 0px 0px 10px 0px;
+				padding: 0 10px;
 			}
-		}
-
-		& p {
-			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-			font-size: 24px;
-			text-decoration: underline;
+			& button {
+				color: #fff;
+				background-color: #ba0000;
+				border-radius: 5px;
+				text-transform: uppercase;
+				padding: 10px 20px;
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			& p {
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 20px;
+				margin: 0px 0px 30px 0px;
+				line-height: 120%;
+			}
 		}
 	}
 	// .popup__close
@@ -111,6 +131,10 @@
 		background: url("../../img/icons/close.svg") 0 0 no-repeat;
 	}
 }
-
+.popup-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 //====================================================================================================
 //====================================================================================================
