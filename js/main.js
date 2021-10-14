@@ -1086,8 +1086,7 @@ let searchIcon = document.querySelector('.search-icon');
 const searchInput = document.querySelector('.main-header__input');
 const searchBtn = document.querySelector('.main-header__btn');
 if (searchIcon) {
-	iconSearch.addEventListener("click", function (e) { //вешаем на иконку событие клик
-		iconSearch.classList.add('_hide'); //ставим и убираем класс _lock на body каждый раз при клике (для запрета скролла сайта при открытом меню бургер)
+	searchIcon.addEventListener("click", function (e) { //вешаем на иконку событие клик
 		searchInput.classList.toggle('_active');//ставим и убираем класс _active на иконку бургера каждый раз при клике (для навешивания анимаций при клике на иконку бургера)
 		searchBtn.classList.toggle('_active');//ставим и убираем класс _active на menu__body каждый раз при клике (для выезда меню при открытии бургера)
 	});
@@ -1127,6 +1126,13 @@ if (menuLinks.length > 0) {//проверяет есть ли такие объ�
 $(document).on('click touchstart', function (e) {
 	if (!$(e.target).is(".top-header__item_p *")) {
 		$('.top-header__item_p').removeClass('_active');
+		$('.top-header__arrow').removeClass('_active');
+	};
+});
+
+$(document).on('click touchstart', function (e) {
+	if (!$(e.target).is(".main-header__search *")) {
+		$('.main-header__input').removeClass('_active');
 		$('.top-header__arrow').removeClass('_active');
 	};
 });
