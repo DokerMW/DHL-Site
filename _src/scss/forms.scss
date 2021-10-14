@@ -59,6 +59,9 @@
 		align-items: center;
 		justify-content: space-between;
 		flex-direction: row-reverse;
+		@media (max-width: $md3+px) {
+			height: 16px;
+		}
 		span {
 			height: 16px;
 			overflow: hidden;
@@ -96,8 +99,8 @@
 		border-top: 0;
 		font-size: 14px;
 		padding: 0px 0px 0px 0px;
-		@media (max-width: $md2+px) {
-			font-size: 18px;
+		@media (max-width: $md3+px) {
+			top: 23px;
 		}
 	}
 	// .select__option
