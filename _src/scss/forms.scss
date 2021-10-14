@@ -62,12 +62,18 @@
 		@media (max-width: $md3+px) {
 			height: 16px;
 		}
+		@media (max-width: $md4+px) {
+			font-size: 12px;
+		}
 		span {
 			height: 16px;
 			overflow: hidden;
 			display: -webkit-box;
 			-webkit-line-clamp: 1;
 			-webkit-box-orient: vertical;
+			@media (max-width: $md4+px) {
+				height: 14px;
+			}
 		}
 		&:before {
 			content: "";
@@ -76,8 +82,11 @@
 			width: 11px;
 			height: 7px;
 			margin: 0px 0px 0px 10px;
-
 			background: url("../../img/icons/down_icon-icons.com_61209.svg") center / 100% no-repeat;
+			@media (max-width: $md4+px) {
+				margin: 0px 0px 0px 7px;
+				background: url("../../img/icons/down_icon-icons.com_61209.svg") center -4px/ 100% no-repeat;
+			}
 		}
 	}
 	&__input {
@@ -110,6 +119,9 @@
 		margin: 0px 0px 0px 0px;
 		font-size: 15px;
 		border-top: 1px solid #fff;
+		@media (max-width: $md4+px) {
+			font-size: 12px;
+		}
 		&:last-child {
 			border-bottom: 1px solid #fff;
 		}
