@@ -9,11 +9,11 @@ function isIE() {
 if (isIE()) {
 	document.querySelector('body').classList.add('ie');
 }
-// if (isMobile.any()) {
-// 	document.querySelector('body').classList.add('_touch');
-// } else {
-// 	document.querySelector('body').classList.add('_pc');
-// }
+if (isMobile.any()) {
+	document.querySelector('body').classList.add('_touch');
+} else {
+	document.querySelector('body').classList.add('_pc');
+}
 function testWebP(callback) {
 	var webP = new Image();
 	webP.onload = webP.onerror = function () {
