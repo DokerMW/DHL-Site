@@ -1555,18 +1555,12 @@ a {
     text-decoration: underline; }
 
 .main-page {
-  background: -webkit-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) center center no-repeat;
-  background: -o-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) center center no-repeat;
   background: linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) center center no-repeat; }
   @media (max-width: 991.98px) {
     .main-page {
-      background: -webkit-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% center no-repeat;
-      background: -o-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% center no-repeat;
       background: linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% center no-repeat; } }
   @media (max-width: 767.98px) {
     .main-page {
-      background: -webkit-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% 30% no-repeat;
-      background: -o-linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% 30% no-repeat;
       background: linear-gradient(45deg, #ba0000 20%, rgba(255, 204, 0, 0) 79%), url(img/main/bg.jpg) 70% 30% no-repeat; } }
   .main-page__body {
     max-width: 710px;
