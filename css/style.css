@@ -892,7 +892,7 @@ body.ie ._ibg img {
   letter-spacing: 0.03em;
   color: #777777;
   padding: 0px 0px 0px 20px;
-  background: url("/img/footer/list_icon.svg") left center/10px no-repeat;
+  background: url("../img/footer/list_icon.svg") left center/10px no-repeat;
 }
 .body-footer__link:hover {
   color: #ba0000;
