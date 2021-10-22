@@ -193,7 +193,7 @@ h6 {
   width: 11px;
   height: 7px;
   margin: 0px 0px 0px 10px;
-  background: url("../img/icons/arrow_w.svg") center/100% no-repeat;
+  background: url("img/icons/arrow_w.svg") center/100% no-repeat;
 }
 @media (max-width: 479.98px) {
   .select__value:before {
