@@ -505,7 +505,7 @@ var p = document.getElementById("player");
 $(p).hide();
 
 var t = document.getElementById("thumbnail");
-t.src = "/img/video/bg.jpg";
+t.src = "../img/video/bg.jpg";
 
 onPlayerStateChange = function (event) {
 	if (event.data == YT.PlayerState.ENDED) {
